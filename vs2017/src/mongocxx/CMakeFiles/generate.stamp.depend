@@ -1,0 +1,22 @@
+# CMake generation dependency list for this directory.
+E:/Source/Anrinch/InfiniteSky/third-party/mongo-cxx-driver/src/mongocxx/CMakeLists.txt
+E:/Source/Anrinch/InfiniteSky/third-party/mongo-cxx-driver/vs2017/CMakeFiles/3.10.0-rc4/CMakeCCompiler.cmake
+E:/Programs/CMake/share/cmake-3.10/Modules/CMakeCInformation.cmake
+E:/Programs/CMake/share/cmake-3.10/Modules/CMakeLanguageInformation.cmake
+E:/Programs/CMake/share/cmake-3.10/Modules/Platform/Windows-MSVC-C.cmake
+E:/Programs/CMake/share/cmake-3.10/Modules/Platform/Windows-MSVC.cmake
+E:/Programs/CMake/share/cmake-3.10/Modules/CMakeCommonLanguageInclude.cmake
+E:/SDK/libmongoc/lib/cmake/libmongoc-1.0/libmongoc-1.0-config-version.cmake
+E:/SDK/libmongoc/lib/cmake/libmongoc-1.0/libmongoc-1.0-config.cmake
+E:/SDK/libbson/lib/cmake/libbson-1.0/libbson-1.0-config-version.cmake
+E:/SDK/libbson/lib/cmake/libbson-1.0/libbson-1.0-config.cmake
+E:/Programs/CMake/share/cmake-3.10/Modules/GenerateExportHeader.cmake
+E:/Programs/CMake/share/cmake-3.10/Modules/CheckCXXCompilerFlag.cmake
+E:/Programs/CMake/share/cmake-3.10/Modules/CheckCXXSourceCompiles.cmake
+E:/Programs/CMake/share/cmake-3.10/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake
+E:/Programs/CMake/share/cmake-3.10/Modules/exportheader.cmake.in
+E:/Programs/CMake/share/cmake-3.10/Modules/exportheader.cmake.in
+E:/Programs/CMake/share/cmake-3.10/Modules/CMakePackageConfigHelpers.cmake
+E:/Programs/CMake/share/cmake-3.10/Modules/WriteBasicConfigVersionFile.cmake
+E:/Source/Anrinch/InfiniteSky/third-party/mongo-cxx-driver/src/mongocxx/cmake/libmongocxx-config.cmake.in
+E:/Programs/CMake/share/cmake-3.10/Modules/BasicConfigVersion-SameMajorVersion.cmake.in

@@ -1,0 +1,6 @@
+# CMake generation dependency list for this directory.
+E:/Source/Anrinch/InfiniteSky/third-party/mongo-cxx-driver/src/mongocxx/config/CMakeLists.txt
+E:/Source/Anrinch/InfiniteSky/third-party/mongo-cxx-driver/src/mongocxx/config/version.hpp.in
+E:/Source/Anrinch/InfiniteSky/third-party/mongo-cxx-driver/src/mongocxx/config/config.hpp.in
+E:/Source/Anrinch/InfiniteSky/third-party/mongo-cxx-driver/src/mongocxx/config/private/config.hh.in
+E:/Source/Anrinch/InfiniteSky/third-party/mongo-cxx-driver/src/mongocxx/config/libmongocxx-static.pc.in

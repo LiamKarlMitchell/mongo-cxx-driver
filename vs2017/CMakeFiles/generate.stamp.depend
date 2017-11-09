@@ -1,0 +1,23 @@
+# CMake generation dependency list for this directory.
+E:/Source/Anrinch/InfiniteSky/third-party/mongo-cxx-driver/CMakeLists.txt
+E:/Source/Anrinch/InfiniteSky/third-party/mongo-cxx-driver/vs2017/CMakeFiles/3.10.0-rc4/CMakeSystem.cmake
+E:/Programs/CMake/share/cmake-3.10/Modules/CMakeSystemSpecificInitialize.cmake
+E:/Source/Anrinch/InfiniteSky/third-party/mongo-cxx-driver/vs2017/CMakeFiles/3.10.0-rc4/CMakeCXXCompiler.cmake
+E:/Programs/CMake/share/cmake-3.10/Modules/CMakeSystemSpecificInformation.cmake
+E:/Programs/CMake/share/cmake-3.10/Modules/CMakeGenericSystem.cmake
+E:/Programs/CMake/share/cmake-3.10/Modules/Platform/Windows.cmake
+E:/Programs/CMake/share/cmake-3.10/Modules/Platform/WindowsPaths.cmake
+E:/Programs/CMake/share/cmake-3.10/Modules/CMakeCXXInformation.cmake
+E:/Programs/CMake/share/cmake-3.10/Modules/CMakeLanguageInformation.cmake
+E:/Programs/CMake/share/cmake-3.10/Modules/Compiler/MSVC-CXX.cmake
+E:/Programs/CMake/share/cmake-3.10/Modules/Compiler/CMakeCommonCompilerMacros.cmake
+E:/Programs/CMake/share/cmake-3.10/Modules/Platform/Windows-MSVC-CXX.cmake
+E:/Programs/CMake/share/cmake-3.10/Modules/Platform/Windows-MSVC.cmake
+E:/Source/Anrinch/InfiniteSky/third-party/mongo-cxx-driver/vs2017/CMakeFiles/3.10.0-rc4/CMakeRCCompiler.cmake
+E:/Programs/CMake/share/cmake-3.10/Modules/CMakeRCInformation.cmake
+E:/Programs/CMake/share/cmake-3.10/Modules/CMakeCommonLanguageInclude.cmake
+E:/Programs/CMake/share/cmake-3.10/Modules/GenerateExportHeader.cmake
+E:/Programs/CMake/share/cmake-3.10/Modules/CheckCXXCompilerFlag.cmake
+E:/Programs/CMake/share/cmake-3.10/Modules/CheckCXXSourceCompiles.cmake
+E:/Programs/CMake/share/cmake-3.10/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake
+E:/Programs/CMake/share/cmake-3.10/Modules/InstallRequiredSystemLibraries.cmake

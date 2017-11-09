@@ -147,7 +147,7 @@ else()
         OUTPUT_NAME bsoncxx-static
     )
 endif()
-
+include(GenerateExportHeader)
 generate_export_header(bsoncxx
     BASE_NAME BSONCXX
     EXPORT_MACRO_NAME BSONCXX_API

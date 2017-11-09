@@ -1,0 +1,169 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\src\mongocxx\test_util\client_helpers.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\src\third_party\catch\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\src\mongocxx\test\bulk_write.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\src\mongocxx\test\client.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\src\mongocxx\test\collection.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\src\mongocxx\test\collection_mocked.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\src\mongocxx\test\conversions.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\src\mongocxx\test\database.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\src\mongocxx\test\gridfs\bucket.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\src\mongocxx\test\gridfs\downloader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\src\mongocxx\test\gridfs\uploader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\src\mongocxx\test\hint.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\src\mongocxx\test\index_view.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\src\mongocxx\test\model\delete_many.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\src\mongocxx\test\model\delete_one.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\src\mongocxx\test\model\insert_one.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\src\mongocxx\test\model\replace_one.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\src\mongocxx\test\model\update_many.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\src\mongocxx\test\model\update_one.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\src\mongocxx\test\options\aggregate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\src\mongocxx\test\options\bulk_write.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\src\mongocxx\test\options\count.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\src\mongocxx\test\options\create_collection.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\src\mongocxx\test\options\create_view.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\src\mongocxx\test\options\delete.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\src\mongocxx\test\options\distinct.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\src\mongocxx\test\options\find.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\src\mongocxx\test\options\find_one_and_delete.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\src\mongocxx\test\options\find_one_and_replace.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\src\mongocxx\test\options\find_one_and_update.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\src\mongocxx\test\options\gridfs\bucket.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\src\mongocxx\test\options\gridfs\upload.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\src\mongocxx\test\options\index.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\src\mongocxx\test\options\insert.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\src\mongocxx\test\options\modify_collection.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\src\mongocxx\test\options\pool.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\src\mongocxx\test\options\private\rewriter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\src\mongocxx\test\options\update.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\src\mongocxx\test\pool.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\src\mongocxx\test\private\scoped_bson_t.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\src\mongocxx\test\private\write_concern.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\src\mongocxx\test\read_concern.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\src\mongocxx\test\read_preference.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\src\mongocxx\test\result\bulk_write.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\src\mongocxx\test\result\delete.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\src\mongocxx\test\result\gridfs\upload.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\src\mongocxx\test\result\insert_one.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\src\mongocxx\test\result\replace_one.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\src\mongocxx\test\result\update.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\src\mongocxx\test\uri.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\src\mongocxx\test\validation_criteria.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\src\mongocxx\test\write_concern.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\src\mongocxx\test\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{F9C66349-9B3D-3C98-AEDB-01C81BC05B71}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

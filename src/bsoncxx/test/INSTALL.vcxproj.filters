@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\src\CMakeFiles\89bc21ef71eacc1a81310506d6bdcf63\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{DCEEB47C-3B9D-3554-BB48-B2EF0846EE14}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

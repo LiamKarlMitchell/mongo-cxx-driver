@@ -1,0 +1,327 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{AD3781AB-43C9-3A88-BA12-E1311F68F6AE}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>examples</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\examples\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule E:/Source/Anrinch/InfiniteSky/third-party/mongo-cxx-driver/examples/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+E:\Programs\CMake\bin\cmake.exe -HE:/Source/Anrinch/InfiniteSky/third-party/mongo-cxx-driver -BE:/Source/Anrinch/InfiniteSky/third-party/mongo-cxx-driver/vs2017 --check-stamp-file E:/Source/Anrinch/InfiniteSky/third-party/mongo-cxx-driver/vs2017/examples/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:/Source/Anrinch/InfiniteSky/third-party/mongo-cxx-driver/examples/CMakeLists.txt;E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\examples\CMakeLists.txt;E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\examples\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\vs2017\examples\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule E:/Source/Anrinch/InfiniteSky/third-party/mongo-cxx-driver/examples/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+E:\Programs\CMake\bin\cmake.exe -HE:/Source/Anrinch/InfiniteSky/third-party/mongo-cxx-driver -BE:/Source/Anrinch/InfiniteSky/third-party/mongo-cxx-driver/vs2017 --check-stamp-file E:/Source/Anrinch/InfiniteSky/third-party/mongo-cxx-driver/vs2017/examples/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:/Source/Anrinch/InfiniteSky/third-party/mongo-cxx-driver/examples/CMakeLists.txt;E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\examples\CMakeLists.txt;E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\examples\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\vs2017\examples\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule E:/Source/Anrinch/InfiniteSky/third-party/mongo-cxx-driver/examples/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+E:\Programs\CMake\bin\cmake.exe -HE:/Source/Anrinch/InfiniteSky/third-party/mongo-cxx-driver -BE:/Source/Anrinch/InfiniteSky/third-party/mongo-cxx-driver/vs2017 --check-stamp-file E:/Source/Anrinch/InfiniteSky/third-party/mongo-cxx-driver/vs2017/examples/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:/Source/Anrinch/InfiniteSky/third-party/mongo-cxx-driver/examples/CMakeLists.txt;E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\examples\CMakeLists.txt;E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\examples\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\vs2017\examples\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule E:/Source/Anrinch/InfiniteSky/third-party/mongo-cxx-driver/examples/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+E:\Programs\CMake\bin\cmake.exe -HE:/Source/Anrinch/InfiniteSky/third-party/mongo-cxx-driver -BE:/Source/Anrinch/InfiniteSky/third-party/mongo-cxx-driver/vs2017 --check-stamp-file E:/Source/Anrinch/InfiniteSky/third-party/mongo-cxx-driver/vs2017/examples/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:/Source/Anrinch/InfiniteSky/third-party/mongo-cxx-driver/examples/CMakeLists.txt;E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\examples\CMakeLists.txt;E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\examples\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\vs2017\examples\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\vs2017\CMakeFiles\43a8653244e8ddcfc9e1112e929ac5cc\examples.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:/Source/Anrinch/InfiniteSky/third-party/mongo-cxx-driver/vs2017/CMakeFiles/43a8653244e8ddcfc9e1112e929ac5cc/examples.rule;E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\vs2017\examples\mongocxx\Debug\aggregate.exe;E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\vs2017\examples\mongocxx\Debug\bulk_write.exe;E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\vs2017\examples\mongocxx\Debug\connect.exe;E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\vs2017\examples\mongocxx\Debug\create.exe;E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\vs2017\examples\mongocxx\Debug\document_validation.exe;E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\vs2017\examples\mongocxx\Debug\exception.exe;E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\vs2017\examples\mongocxx\Debug\get_values_from_documents.exe;E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\vs2017\examples\mongocxx\Debug\gridfs.exe;E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\vs2017\examples\mongocxx\Debug\index.exe;E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\vs2017\examples\mongocxx\Debug\inserted_id.exe;E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\vs2017\examples\mongocxx\Debug\instance_management.exe;E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\vs2017\examples\mongocxx\Debug\documentation_examples.exe;E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\vs2017\examples\mongocxx\Debug\usage_overview.exe;E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\vs2017\examples\mongocxx\Debug\query_projection.exe;E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\vs2017\examples\mongocxx\Debug\query.exe;E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\vs2017\examples\mongocxx\Debug\remove.exe;E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\vs2017\examples\mongocxx\Debug\tailable_cursor.exe;E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\vs2017\examples\mongocxx\Debug\update.exe;E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\vs2017\examples\mongocxx\Debug\view_or_value_variant.exe;E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\vs2017\examples\mongocxx\Debug\pool.exe;E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\vs2017\examples\bsoncxx\Debug\builder_core.exe;E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\vs2017\examples\bsoncxx\Debug\builder_basic.exe;E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\vs2017\examples\bsoncxx\Debug\builder_stream.exe;E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\vs2017\examples\bsoncxx\Debug\builder_stream_customization.exe;E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\vs2017\examples\bsoncxx\Debug\decimal128.exe;E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\vs2017\examples\bsoncxx\Debug\getting_values.exe;E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\vs2017\examples\bsoncxx\Debug\view_and_value.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\vs2017\examples\CMakeFiles\examples</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:/Source/Anrinch/InfiniteSky/third-party/mongo-cxx-driver/vs2017/CMakeFiles/43a8653244e8ddcfc9e1112e929ac5cc/examples.rule;E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\vs2017\examples\mongocxx\Release\aggregate.exe;E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\vs2017\examples\mongocxx\Release\bulk_write.exe;E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\vs2017\examples\mongocxx\Release\connect.exe;E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\vs2017\examples\mongocxx\Release\create.exe;E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\vs2017\examples\mongocxx\Release\document_validation.exe;E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\vs2017\examples\mongocxx\Release\exception.exe;E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\vs2017\examples\mongocxx\Release\get_values_from_documents.exe;E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\vs2017\examples\mongocxx\Release\gridfs.exe;E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\vs2017\examples\mongocxx\Release\index.exe;E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\vs2017\examples\mongocxx\Release\inserted_id.exe;E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\vs2017\examples\mongocxx\Release\instance_management.exe;E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\vs2017\examples\mongocxx\Release\documentation_examples.exe;E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\vs2017\examples\mongocxx\Release\usage_overview.exe;E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\vs2017\examples\mongocxx\Release\query_projection.exe;E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\vs2017\examples\mongocxx\Release\query.exe;E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\vs2017\examples\mongocxx\Release\remove.exe;E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\vs2017\examples\mongocxx\Release\tailable_cursor.exe;E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\vs2017\examples\mongocxx\Release\update.exe;E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\vs2017\examples\mongocxx\Release\view_or_value_variant.exe;E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\vs2017\examples\mongocxx\Release\pool.exe;E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\vs2017\examples\bsoncxx\Release\builder_core.exe;E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\vs2017\examples\bsoncxx\Release\builder_basic.exe;E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\vs2017\examples\bsoncxx\Release\builder_stream.exe;E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\vs2017\examples\bsoncxx\Release\builder_stream_customization.exe;E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\vs2017\examples\bsoncxx\Release\decimal128.exe;E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\vs2017\examples\bsoncxx\Release\getting_values.exe;E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\vs2017\examples\bsoncxx\Release\view_and_value.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\vs2017\examples\CMakeFiles\examples</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:/Source/Anrinch/InfiniteSky/third-party/mongo-cxx-driver/vs2017/CMakeFiles/43a8653244e8ddcfc9e1112e929ac5cc/examples.rule;E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\vs2017\examples\mongocxx\MinSizeRel\aggregate.exe;E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\vs2017\examples\mongocxx\MinSizeRel\bulk_write.exe;E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\vs2017\examples\mongocxx\MinSizeRel\connect.exe;E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\vs2017\examples\mongocxx\MinSizeRel\create.exe;E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\vs2017\examples\mongocxx\MinSizeRel\document_validation.exe;E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\vs2017\examples\mongocxx\MinSizeRel\exception.exe;E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\vs2017\examples\mongocxx\MinSizeRel\get_values_from_documents.exe;E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\vs2017\examples\mongocxx\MinSizeRel\gridfs.exe;E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\vs2017\examples\mongocxx\MinSizeRel\index.exe;E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\vs2017\examples\mongocxx\MinSizeRel\inserted_id.exe;E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\vs2017\examples\mongocxx\MinSizeRel\instance_management.exe;E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\vs2017\examples\mongocxx\MinSizeRel\documentation_examples.exe;E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\vs2017\examples\mongocxx\MinSizeRel\usage_overview.exe;E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\vs2017\examples\mongocxx\MinSizeRel\query_projection.exe;E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\vs2017\examples\mongocxx\MinSizeRel\query.exe;E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\vs2017\examples\mongocxx\MinSizeRel\remove.exe;E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\vs2017\examples\mongocxx\MinSizeRel\tailable_cursor.exe;E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\vs2017\examples\mongocxx\MinSizeRel\update.exe;E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\vs2017\examples\mongocxx\MinSizeRel\view_or_value_variant.exe;E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\vs2017\examples\mongocxx\MinSizeRel\pool.exe;E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\vs2017\examples\bsoncxx\MinSizeRel\builder_core.exe;E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\vs2017\examples\bsoncxx\MinSizeRel\builder_basic.exe;E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\vs2017\examples\bsoncxx\MinSizeRel\builder_stream.exe;E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\vs2017\examples\bsoncxx\MinSizeRel\builder_stream_customization.exe;E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\vs2017\examples\bsoncxx\MinSizeRel\decimal128.exe;E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\vs2017\examples\bsoncxx\MinSizeRel\getting_values.exe;E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\vs2017\examples\bsoncxx\MinSizeRel\view_and_value.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\vs2017\examples\CMakeFiles\examples</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:/Source/Anrinch/InfiniteSky/third-party/mongo-cxx-driver/vs2017/CMakeFiles/43a8653244e8ddcfc9e1112e929ac5cc/examples.rule;E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\vs2017\examples\mongocxx\RelWithDebInfo\aggregate.exe;E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\vs2017\examples\mongocxx\RelWithDebInfo\bulk_write.exe;E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\vs2017\examples\mongocxx\RelWithDebInfo\connect.exe;E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\vs2017\examples\mongocxx\RelWithDebInfo\create.exe;E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\vs2017\examples\mongocxx\RelWithDebInfo\document_validation.exe;E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\vs2017\examples\mongocxx\RelWithDebInfo\exception.exe;E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\vs2017\examples\mongocxx\RelWithDebInfo\get_values_from_documents.exe;E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\vs2017\examples\mongocxx\RelWithDebInfo\gridfs.exe;E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\vs2017\examples\mongocxx\RelWithDebInfo\index.exe;E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\vs2017\examples\mongocxx\RelWithDebInfo\inserted_id.exe;E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\vs2017\examples\mongocxx\RelWithDebInfo\instance_management.exe;E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\vs2017\examples\mongocxx\RelWithDebInfo\documentation_examples.exe;E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\vs2017\examples\mongocxx\RelWithDebInfo\usage_overview.exe;E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\vs2017\examples\mongocxx\RelWithDebInfo\query_projection.exe;E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\vs2017\examples\mongocxx\RelWithDebInfo\query.exe;E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\vs2017\examples\mongocxx\RelWithDebInfo\remove.exe;E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\vs2017\examples\mongocxx\RelWithDebInfo\tailable_cursor.exe;E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\vs2017\examples\mongocxx\RelWithDebInfo\update.exe;E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\vs2017\examples\mongocxx\RelWithDebInfo\view_or_value_variant.exe;E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\vs2017\examples\mongocxx\RelWithDebInfo\pool.exe;E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\vs2017\examples\bsoncxx\RelWithDebInfo\builder_core.exe;E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\vs2017\examples\bsoncxx\RelWithDebInfo\builder_basic.exe;E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\vs2017\examples\bsoncxx\RelWithDebInfo\builder_stream.exe;E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\vs2017\examples\bsoncxx\RelWithDebInfo\builder_stream_customization.exe;E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\vs2017\examples\bsoncxx\RelWithDebInfo\decimal128.exe;E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\vs2017\examples\bsoncxx\RelWithDebInfo\getting_values.exe;E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\vs2017\examples\bsoncxx\RelWithDebInfo\view_and_value.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\vs2017\examples\CMakeFiles\examples</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\vs2017\examples\CMakeFiles\examples" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\vs2017\ZERO_CHECK.vcxproj">
+      <Project>{63F32FA1-3F34-3CA4-9AB2-7D613652A3DB}</Project>
+      <Name>ZERO_CHECK</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\vs2017\examples\mongocxx\aggregate.vcxproj">
+      <Project>{4266469C-C25B-3A0E-88C2-519CC024B223}</Project>
+      <Name>aggregate</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\vs2017\examples\bsoncxx\builder_basic.vcxproj">
+      <Project>{21EDD6CB-07E5-3D17-93FB-DDFEC07F9DE7}</Project>
+      <Name>builder_basic</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\vs2017\examples\bsoncxx\builder_core.vcxproj">
+      <Project>{24E4C10F-A999-3D62-A303-2F2C09D54934}</Project>
+      <Name>builder_core</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\vs2017\examples\bsoncxx\builder_stream.vcxproj">
+      <Project>{76FA75D5-7A50-3B90-B84E-8068C37F63DC}</Project>
+      <Name>builder_stream</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\vs2017\examples\bsoncxx\builder_stream_customization.vcxproj">
+      <Project>{3B138BF2-08C5-3FEC-B83C-23F3FB66F2BF}</Project>
+      <Name>builder_stream_customization</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\vs2017\examples\mongocxx\bulk_write.vcxproj">
+      <Project>{634E931F-11A1-3B13-8C51-D9CA07688C97}</Project>
+      <Name>bulk_write</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\vs2017\examples\mongocxx\connect.vcxproj">
+      <Project>{63178B87-0DB7-36D4-8955-C73390CB2CC4}</Project>
+      <Name>connect</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\vs2017\examples\mongocxx\create.vcxproj">
+      <Project>{D5BC40EA-A4A6-362D-8B60-850845EC3140}</Project>
+      <Name>create</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\vs2017\examples\bsoncxx\decimal128.vcxproj">
+      <Project>{2F01360B-70E6-3BA5-8F0D-C6A3A971F8F1}</Project>
+      <Name>decimal128</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\vs2017\examples\mongocxx\document_validation.vcxproj">
+      <Project>{09C4F245-7C40-3B37-A591-16F1565D31E9}</Project>
+      <Name>document_validation</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\vs2017\examples\mongocxx\documentation_examples.vcxproj">
+      <Project>{2257894E-9810-3DD3-A76E-63DA9E70BDBD}</Project>
+      <Name>documentation_examples</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\vs2017\examples\mongocxx\exception.vcxproj">
+      <Project>{C641610A-8A2F-3036-84C3-46DC0B5D4E2A}</Project>
+      <Name>exception</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\vs2017\examples\mongocxx\get_values_from_documents.vcxproj">
+      <Project>{43D8402B-FD7F-3C66-80F8-71288FBEA410}</Project>
+      <Name>get_values_from_documents</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\vs2017\examples\bsoncxx\getting_values.vcxproj">
+      <Project>{6C276C10-CD0C-3B1D-8FF5-BD8916E7AC0D}</Project>
+      <Name>getting_values</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\vs2017\examples\mongocxx\gridfs.vcxproj">
+      <Project>{E01B2EAB-994D-34C3-A4CF-3A11CE3F4A04}</Project>
+      <Name>gridfs</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\vs2017\examples\mongocxx\index.vcxproj">
+      <Project>{432EDAE4-4C5C-3766-A8C7-52A3F56F0E47}</Project>
+      <Name>index</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\vs2017\examples\mongocxx\inserted_id.vcxproj">
+      <Project>{9B36D3AB-7A40-3779-9D97-592F91F513F3}</Project>
+      <Name>inserted_id</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\vs2017\examples\mongocxx\instance_management.vcxproj">
+      <Project>{17047FD5-F6D9-34A9-8861-A20B82085FB3}</Project>
+      <Name>instance_management</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\vs2017\examples\mongocxx\pool.vcxproj">
+      <Project>{410709E8-85F0-3CD2-A22B-179889327D2B}</Project>
+      <Name>pool</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\vs2017\examples\mongocxx\query.vcxproj">
+      <Project>{C5C1D521-E9D6-3841-A7B0-389E37EE44B9}</Project>
+      <Name>query</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\vs2017\examples\mongocxx\query_projection.vcxproj">
+      <Project>{C53E8F9E-FDE8-3D39-AB6F-32D1ACA1D345}</Project>
+      <Name>query_projection</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\vs2017\examples\mongocxx\remove.vcxproj">
+      <Project>{968ED0E7-B69A-3A25-8EE5-8935A3BB6FB9}</Project>
+      <Name>remove</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\vs2017\examples\mongocxx\tailable_cursor.vcxproj">
+      <Project>{9DCA5638-47E2-3B0A-BAB1-5B614A1D6471}</Project>
+      <Name>tailable_cursor</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\vs2017\examples\mongocxx\update.vcxproj">
+      <Project>{F7E64A07-C62C-3E76-8473-6A709FF07274}</Project>
+      <Name>update</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\vs2017\examples\mongocxx\usage_overview.vcxproj">
+      <Project>{40BC867D-E072-3D49-9B64-D824403D4C6D}</Project>
+      <Name>usage_overview</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\vs2017\examples\bsoncxx\view_and_value.vcxproj">
+      <Project>{7BB71D0F-D68A-32A7-8A31-FB5BE28AA682}</Project>
+      <Name>view_and_value</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\vs2017\examples\mongocxx\view_or_value_variant.vcxproj">
+      <Project>{1F6A44C2-123A-3615-BF1E-5E49B59136F3}</Project>
+      <Name>view_or_value_variant</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

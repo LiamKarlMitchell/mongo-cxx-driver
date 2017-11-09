@@ -1,0 +1,182 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{3D9CBAFB-9504-3122-992B-428E5192F511}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\src;E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\vs2017\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\src;E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\vs2017\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\src;E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\vs2017\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\src;E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\vs2017\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\src\bsoncxx\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule E:/Source/Anrinch/InfiniteSky/third-party/mongo-cxx-driver/src/bsoncxx/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+E:\Programs\CMake\bin\cmake.exe -HE:/Source/Anrinch/InfiniteSky/third-party/mongo-cxx-driver -BE:/Source/Anrinch/InfiniteSky/third-party/mongo-cxx-driver/vs2017 --check-stamp-file E:/Source/Anrinch/InfiniteSky/third-party/mongo-cxx-driver/vs2017/src/bsoncxx/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:/Source/Anrinch/InfiniteSky/third-party/mongo-cxx-driver/src/bsoncxx/CMakeLists.txt;E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\src\bsoncxx\CMakeLists.txt;E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\vs2017\CMakeFiles\3.10.0-rc4\CMakeCCompiler.cmake;E:\Programs\CMake\share\cmake-3.10\Modules\CMakeCInformation.cmake;E:\Programs\CMake\share\cmake-3.10\Modules\CMakeLanguageInformation.cmake;E:\Programs\CMake\share\cmake-3.10\Modules\Platform\Windows-MSVC-C.cmake;E:\Programs\CMake\share\cmake-3.10\Modules\Platform\Windows-MSVC.cmake;E:\Programs\CMake\share\cmake-3.10\Modules\CMakeCommonLanguageInclude.cmake;E:\SDK\libbson\lib\cmake\libbson-1.0\libbson-1.0-config-version.cmake;E:\SDK\libbson\lib\cmake\libbson-1.0\libbson-1.0-config.cmake;E:\Programs\CMake\share\cmake-3.10\Modules\FindBoost.cmake;E:\Programs\CMake\share\cmake-3.10\Modules\GenerateExportHeader.cmake;E:\Programs\CMake\share\cmake-3.10\Modules\CheckCXXCompilerFlag.cmake;E:\Programs\CMake\share\cmake-3.10\Modules\CheckCXXSourceCompiles.cmake;E:\Programs\CMake\share\cmake-3.10\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;E:\Programs\CMake\share\cmake-3.10\Modules\exportheader.cmake.in;E:\Programs\CMake\share\cmake-3.10\Modules\exportheader.cmake.in;E:\Programs\CMake\share\cmake-3.10\Modules\CMakePackageConfigHelpers.cmake;E:\Programs\CMake\share\cmake-3.10\Modules\WriteBasicConfigVersionFile.cmake;E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\src\bsoncxx\cmake\libbsoncxx-config.cmake.in;E:\Programs\CMake\share\cmake-3.10\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\src\bsoncxx\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\vs2017\src\bsoncxx\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule E:/Source/Anrinch/InfiniteSky/third-party/mongo-cxx-driver/src/bsoncxx/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+E:\Programs\CMake\bin\cmake.exe -HE:/Source/Anrinch/InfiniteSky/third-party/mongo-cxx-driver -BE:/Source/Anrinch/InfiniteSky/third-party/mongo-cxx-driver/vs2017 --check-stamp-file E:/Source/Anrinch/InfiniteSky/third-party/mongo-cxx-driver/vs2017/src/bsoncxx/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:/Source/Anrinch/InfiniteSky/third-party/mongo-cxx-driver/src/bsoncxx/CMakeLists.txt;E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\src\bsoncxx\CMakeLists.txt;E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\vs2017\CMakeFiles\3.10.0-rc4\CMakeCCompiler.cmake;E:\Programs\CMake\share\cmake-3.10\Modules\CMakeCInformation.cmake;E:\Programs\CMake\share\cmake-3.10\Modules\CMakeLanguageInformation.cmake;E:\Programs\CMake\share\cmake-3.10\Modules\Platform\Windows-MSVC-C.cmake;E:\Programs\CMake\share\cmake-3.10\Modules\Platform\Windows-MSVC.cmake;E:\Programs\CMake\share\cmake-3.10\Modules\CMakeCommonLanguageInclude.cmake;E:\SDK\libbson\lib\cmake\libbson-1.0\libbson-1.0-config-version.cmake;E:\SDK\libbson\lib\cmake\libbson-1.0\libbson-1.0-config.cmake;E:\Programs\CMake\share\cmake-3.10\Modules\FindBoost.cmake;E:\Programs\CMake\share\cmake-3.10\Modules\GenerateExportHeader.cmake;E:\Programs\CMake\share\cmake-3.10\Modules\CheckCXXCompilerFlag.cmake;E:\Programs\CMake\share\cmake-3.10\Modules\CheckCXXSourceCompiles.cmake;E:\Programs\CMake\share\cmake-3.10\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;E:\Programs\CMake\share\cmake-3.10\Modules\exportheader.cmake.in;E:\Programs\CMake\share\cmake-3.10\Modules\exportheader.cmake.in;E:\Programs\CMake\share\cmake-3.10\Modules\CMakePackageConfigHelpers.cmake;E:\Programs\CMake\share\cmake-3.10\Modules\WriteBasicConfigVersionFile.cmake;E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\src\bsoncxx\cmake\libbsoncxx-config.cmake.in;E:\Programs\CMake\share\cmake-3.10\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\src\bsoncxx\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\vs2017\src\bsoncxx\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule E:/Source/Anrinch/InfiniteSky/third-party/mongo-cxx-driver/src/bsoncxx/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+E:\Programs\CMake\bin\cmake.exe -HE:/Source/Anrinch/InfiniteSky/third-party/mongo-cxx-driver -BE:/Source/Anrinch/InfiniteSky/third-party/mongo-cxx-driver/vs2017 --check-stamp-file E:/Source/Anrinch/InfiniteSky/third-party/mongo-cxx-driver/vs2017/src/bsoncxx/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:/Source/Anrinch/InfiniteSky/third-party/mongo-cxx-driver/src/bsoncxx/CMakeLists.txt;E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\src\bsoncxx\CMakeLists.txt;E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\vs2017\CMakeFiles\3.10.0-rc4\CMakeCCompiler.cmake;E:\Programs\CMake\share\cmake-3.10\Modules\CMakeCInformation.cmake;E:\Programs\CMake\share\cmake-3.10\Modules\CMakeLanguageInformation.cmake;E:\Programs\CMake\share\cmake-3.10\Modules\Platform\Windows-MSVC-C.cmake;E:\Programs\CMake\share\cmake-3.10\Modules\Platform\Windows-MSVC.cmake;E:\Programs\CMake\share\cmake-3.10\Modules\CMakeCommonLanguageInclude.cmake;E:\SDK\libbson\lib\cmake\libbson-1.0\libbson-1.0-config-version.cmake;E:\SDK\libbson\lib\cmake\libbson-1.0\libbson-1.0-config.cmake;E:\Programs\CMake\share\cmake-3.10\Modules\FindBoost.cmake;E:\Programs\CMake\share\cmake-3.10\Modules\GenerateExportHeader.cmake;E:\Programs\CMake\share\cmake-3.10\Modules\CheckCXXCompilerFlag.cmake;E:\Programs\CMake\share\cmake-3.10\Modules\CheckCXXSourceCompiles.cmake;E:\Programs\CMake\share\cmake-3.10\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;E:\Programs\CMake\share\cmake-3.10\Modules\exportheader.cmake.in;E:\Programs\CMake\share\cmake-3.10\Modules\exportheader.cmake.in;E:\Programs\CMake\share\cmake-3.10\Modules\CMakePackageConfigHelpers.cmake;E:\Programs\CMake\share\cmake-3.10\Modules\WriteBasicConfigVersionFile.cmake;E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\src\bsoncxx\cmake\libbsoncxx-config.cmake.in;E:\Programs\CMake\share\cmake-3.10\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\src\bsoncxx\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\vs2017\src\bsoncxx\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule E:/Source/Anrinch/InfiniteSky/third-party/mongo-cxx-driver/src/bsoncxx/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+E:\Programs\CMake\bin\cmake.exe -HE:/Source/Anrinch/InfiniteSky/third-party/mongo-cxx-driver -BE:/Source/Anrinch/InfiniteSky/third-party/mongo-cxx-driver/vs2017 --check-stamp-file E:/Source/Anrinch/InfiniteSky/third-party/mongo-cxx-driver/vs2017/src/bsoncxx/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:/Source/Anrinch/InfiniteSky/third-party/mongo-cxx-driver/src/bsoncxx/CMakeLists.txt;E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\src\bsoncxx\CMakeLists.txt;E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\vs2017\CMakeFiles\3.10.0-rc4\CMakeCCompiler.cmake;E:\Programs\CMake\share\cmake-3.10\Modules\CMakeCInformation.cmake;E:\Programs\CMake\share\cmake-3.10\Modules\CMakeLanguageInformation.cmake;E:\Programs\CMake\share\cmake-3.10\Modules\Platform\Windows-MSVC-C.cmake;E:\Programs\CMake\share\cmake-3.10\Modules\Platform\Windows-MSVC.cmake;E:\Programs\CMake\share\cmake-3.10\Modules\CMakeCommonLanguageInclude.cmake;E:\SDK\libbson\lib\cmake\libbson-1.0\libbson-1.0-config-version.cmake;E:\SDK\libbson\lib\cmake\libbson-1.0\libbson-1.0-config.cmake;E:\Programs\CMake\share\cmake-3.10\Modules\FindBoost.cmake;E:\Programs\CMake\share\cmake-3.10\Modules\GenerateExportHeader.cmake;E:\Programs\CMake\share\cmake-3.10\Modules\CheckCXXCompilerFlag.cmake;E:\Programs\CMake\share\cmake-3.10\Modules\CheckCXXSourceCompiles.cmake;E:\Programs\CMake\share\cmake-3.10\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;E:\Programs\CMake\share\cmake-3.10\Modules\exportheader.cmake.in;E:\Programs\CMake\share\cmake-3.10\Modules\exportheader.cmake.in;E:\Programs\CMake\share\cmake-3.10\Modules\CMakePackageConfigHelpers.cmake;E:\Programs\CMake\share\cmake-3.10\Modules\WriteBasicConfigVersionFile.cmake;E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\src\bsoncxx\cmake\libbsoncxx-config.cmake.in;E:\Programs\CMake\share\cmake-3.10\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\src\bsoncxx\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\vs2017\src\bsoncxx\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\vs2017\ZERO_CHECK.vcxproj">
+      <Project>{63F32FA1-3F34-3CA4-9AB2-7D613652A3DB}</Project>
+      <Name>ZERO_CHECK</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\vs2017\src\bsoncxx\bsoncxx.vcxproj">
+      <Project>{FB1789F8-EE47-3088-983A-60707E24319D}</Project>
+      <Name>bsoncxx</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\vs2017\src\bsoncxx\bsoncxx_testing.vcxproj">
+      <Project>{9605DC41-BC90-38D1-9C3F-5D18E1312B50}</Project>
+      <Name>bsoncxx_testing</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\vs2017\src\bsoncxx\test\test_bson.vcxproj">
+      <Project>{94008999-F3A9-3294-8993-2FE69D393333}</Project>
+      <Name>test_bson</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

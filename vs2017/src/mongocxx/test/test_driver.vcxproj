@@ -1,0 +1,421 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{49E70E8C-80B1-3399-9414-4A8CA5F37D19}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>test_driver</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\vs2017\src\mongocxx\test\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">test_driver.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">test_driver</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\vs2017\src\mongocxx\test\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">test_driver.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">test_driver</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\vs2017\src\mongocxx\test\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">test_driver.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">test_driver</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\vs2017\src\mongocxx\test\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">test_driver.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">test_driver</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\src;E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\vs2017\src;E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\src\third_party\catch\include;E:\SDK\libmongoc\include\libmongoc-1.0;E:\SDK\libbson\include\libbson-1.0;E:\SDK\boost_1_65_1;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;MONGO_CXX_DRIVER_COMPILING;MONGOCXX_TESTING;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;MONGO_CXX_DRIVER_COMPILING;MONGOCXX_TESTING;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\src;E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\vs2017\src;E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\src\third_party\catch\include;E:\SDK\libmongoc\include\libmongoc-1.0;E:\SDK\libbson\include\libbson-1.0;E:\SDK\boost_1_65_1;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\src;E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\vs2017\src;E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\src\third_party\catch\include;E:\SDK\libmongoc\include\libmongoc-1.0;E:\SDK\libbson\include\libbson-1.0;E:\SDK\boost_1_65_1;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\Debug\mongocxx-mocked.lib;E:\SDK\libmongoc\lib\mongoc-1.0.lib;E:\SDK\libbson\lib\bson-1.0.lib;secur32.lib;crypt32.lib;Shlwapi.lib;secur32.lib;crypt32.lib;Bcrypt.lib;..\..\bsoncxx\Debug\bsoncxx.lib;Shlwapi.lib;Bcrypt.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/Source/Anrinch/InfiniteSky/third-party/mongo-cxx-driver/vs2017/src/mongocxx/test/Debug/test_driver.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/Source/Anrinch/InfiniteSky/third-party/mongo-cxx-driver/vs2017/src/mongocxx/test/Debug/test_driver.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\src;E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\vs2017\src;E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\src\third_party\catch\include;E:\SDK\libmongoc\include\libmongoc-1.0;E:\SDK\libbson\include\libbson-1.0;E:\SDK\boost_1_65_1;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;MONGO_CXX_DRIVER_COMPILING;MONGOCXX_TESTING;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat></DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;MONGO_CXX_DRIVER_COMPILING;MONGOCXX_TESTING;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\src;E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\vs2017\src;E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\src\third_party\catch\include;E:\SDK\libmongoc\include\libmongoc-1.0;E:\SDK\libbson\include\libbson-1.0;E:\SDK\boost_1_65_1;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\src;E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\vs2017\src;E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\src\third_party\catch\include;E:\SDK\libmongoc\include\libmongoc-1.0;E:\SDK\libbson\include\libbson-1.0;E:\SDK\boost_1_65_1;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\Release\mongocxx-mocked.lib;E:\SDK\libmongoc\lib\mongoc-1.0.lib;E:\SDK\libbson\lib\bson-1.0.lib;secur32.lib;crypt32.lib;Shlwapi.lib;secur32.lib;crypt32.lib;Bcrypt.lib;..\..\bsoncxx\Release\bsoncxx.lib;Shlwapi.lib;Bcrypt.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/Source/Anrinch/InfiniteSky/third-party/mongo-cxx-driver/vs2017/src/mongocxx/test/Release/test_driver.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/Source/Anrinch/InfiniteSky/third-party/mongo-cxx-driver/vs2017/src/mongocxx/test/Release/test_driver.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\src;E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\vs2017\src;E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\src\third_party\catch\include;E:\SDK\libmongoc\include\libmongoc-1.0;E:\SDK\libbson\include\libbson-1.0;E:\SDK\boost_1_65_1;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;MONGO_CXX_DRIVER_COMPILING;MONGOCXX_TESTING;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat></DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;MONGO_CXX_DRIVER_COMPILING;MONGOCXX_TESTING;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\src;E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\vs2017\src;E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\src\third_party\catch\include;E:\SDK\libmongoc\include\libmongoc-1.0;E:\SDK\libbson\include\libbson-1.0;E:\SDK\boost_1_65_1;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\src;E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\vs2017\src;E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\src\third_party\catch\include;E:\SDK\libmongoc\include\libmongoc-1.0;E:\SDK\libbson\include\libbson-1.0;E:\SDK\boost_1_65_1;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\MinSizeRel\mongocxx-mocked.lib;E:\SDK\libmongoc\lib\mongoc-1.0.lib;E:\SDK\libbson\lib\bson-1.0.lib;secur32.lib;crypt32.lib;Shlwapi.lib;secur32.lib;crypt32.lib;Bcrypt.lib;..\..\bsoncxx\MinSizeRel\bsoncxx.lib;Shlwapi.lib;Bcrypt.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/Source/Anrinch/InfiniteSky/third-party/mongo-cxx-driver/vs2017/src/mongocxx/test/MinSizeRel/test_driver.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/Source/Anrinch/InfiniteSky/third-party/mongo-cxx-driver/vs2017/src/mongocxx/test/MinSizeRel/test_driver.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\src;E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\vs2017\src;E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\src\third_party\catch\include;E:\SDK\libmongoc\include\libmongoc-1.0;E:\SDK\libbson\include\libbson-1.0;E:\SDK\boost_1_65_1;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;MONGO_CXX_DRIVER_COMPILING;MONGOCXX_TESTING;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;MONGO_CXX_DRIVER_COMPILING;MONGOCXX_TESTING;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\src;E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\vs2017\src;E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\src\third_party\catch\include;E:\SDK\libmongoc\include\libmongoc-1.0;E:\SDK\libbson\include\libbson-1.0;E:\SDK\boost_1_65_1;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\src;E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\vs2017\src;E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\src\third_party\catch\include;E:\SDK\libmongoc\include\libmongoc-1.0;E:\SDK\libbson\include\libbson-1.0;E:\SDK\boost_1_65_1;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\RelWithDebInfo\mongocxx-mocked.lib;E:\SDK\libmongoc\lib\mongoc-1.0.lib;E:\SDK\libbson\lib\bson-1.0.lib;secur32.lib;crypt32.lib;Shlwapi.lib;secur32.lib;crypt32.lib;Bcrypt.lib;..\..\bsoncxx\RelWithDebInfo\bsoncxx.lib;Shlwapi.lib;Bcrypt.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/Source/Anrinch/InfiniteSky/third-party/mongo-cxx-driver/vs2017/src/mongocxx/test/RelWithDebInfo/test_driver.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/Source/Anrinch/InfiniteSky/third-party/mongo-cxx-driver/vs2017/src/mongocxx/test/RelWithDebInfo/test_driver.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\src\mongocxx\test\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule E:/Source/Anrinch/InfiniteSky/third-party/mongo-cxx-driver/src/mongocxx/test/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+E:\Programs\CMake\bin\cmake.exe -HE:/Source/Anrinch/InfiniteSky/third-party/mongo-cxx-driver -BE:/Source/Anrinch/InfiniteSky/third-party/mongo-cxx-driver/vs2017 --check-stamp-file E:/Source/Anrinch/InfiniteSky/third-party/mongo-cxx-driver/vs2017/src/mongocxx/test/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:/Source/Anrinch/InfiniteSky/third-party/mongo-cxx-driver/src/mongocxx/test/CMakeLists.txt;E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\src\mongocxx\test\CMakeLists.txt;E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\src\mongocxx\test\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\vs2017\src\mongocxx\test\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule E:/Source/Anrinch/InfiniteSky/third-party/mongo-cxx-driver/src/mongocxx/test/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+E:\Programs\CMake\bin\cmake.exe -HE:/Source/Anrinch/InfiniteSky/third-party/mongo-cxx-driver -BE:/Source/Anrinch/InfiniteSky/third-party/mongo-cxx-driver/vs2017 --check-stamp-file E:/Source/Anrinch/InfiniteSky/third-party/mongo-cxx-driver/vs2017/src/mongocxx/test/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:/Source/Anrinch/InfiniteSky/third-party/mongo-cxx-driver/src/mongocxx/test/CMakeLists.txt;E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\src\mongocxx\test\CMakeLists.txt;E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\src\mongocxx\test\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\vs2017\src\mongocxx\test\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule E:/Source/Anrinch/InfiniteSky/third-party/mongo-cxx-driver/src/mongocxx/test/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+E:\Programs\CMake\bin\cmake.exe -HE:/Source/Anrinch/InfiniteSky/third-party/mongo-cxx-driver -BE:/Source/Anrinch/InfiniteSky/third-party/mongo-cxx-driver/vs2017 --check-stamp-file E:/Source/Anrinch/InfiniteSky/third-party/mongo-cxx-driver/vs2017/src/mongocxx/test/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:/Source/Anrinch/InfiniteSky/third-party/mongo-cxx-driver/src/mongocxx/test/CMakeLists.txt;E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\src\mongocxx\test\CMakeLists.txt;E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\src\mongocxx\test\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\vs2017\src\mongocxx\test\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule E:/Source/Anrinch/InfiniteSky/third-party/mongo-cxx-driver/src/mongocxx/test/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+E:\Programs\CMake\bin\cmake.exe -HE:/Source/Anrinch/InfiniteSky/third-party/mongo-cxx-driver -BE:/Source/Anrinch/InfiniteSky/third-party/mongo-cxx-driver/vs2017 --check-stamp-file E:/Source/Anrinch/InfiniteSky/third-party/mongo-cxx-driver/vs2017/src/mongocxx/test/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:/Source/Anrinch/InfiniteSky/third-party/mongo-cxx-driver/src/mongocxx/test/CMakeLists.txt;E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\src\mongocxx\test\CMakeLists.txt;E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\src\mongocxx\test\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\vs2017\src\mongocxx\test\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\src\mongocxx\test_util\client_helpers.cpp"  />
+    <ClCompile Include="E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\src\third_party\catch\main.cpp"  />
+    <ClCompile Include="E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\src\mongocxx\test\bulk_write.cpp" >
+      <ObjectFileName>$(IntDir)/bulk_write.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\src\mongocxx\test\client.cpp"  />
+    <ClCompile Include="E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\src\mongocxx\test\collection.cpp"  />
+    <ClCompile Include="E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\src\mongocxx\test\collection_mocked.cpp"  />
+    <ClCompile Include="E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\src\mongocxx\test\conversions.cpp"  />
+    <ClCompile Include="E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\src\mongocxx\test\database.cpp"  />
+    <ClCompile Include="E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\src\mongocxx\test\gridfs\bucket.cpp" >
+      <ObjectFileName>$(IntDir)/gridfs/bucket.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\src\mongocxx\test\gridfs\downloader.cpp"  />
+    <ClCompile Include="E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\src\mongocxx\test\gridfs\uploader.cpp"  />
+    <ClCompile Include="E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\src\mongocxx\test\hint.cpp"  />
+    <ClCompile Include="E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\src\mongocxx\test\index_view.cpp"  />
+    <ClCompile Include="E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\src\mongocxx\test\model\delete_many.cpp"  />
+    <ClCompile Include="E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\src\mongocxx\test\model\delete_one.cpp"  />
+    <ClCompile Include="E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\src\mongocxx\test\model\insert_one.cpp" >
+      <ObjectFileName>$(IntDir)/model/insert_one.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\src\mongocxx\test\model\replace_one.cpp" >
+      <ObjectFileName>$(IntDir)/model/replace_one.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\src\mongocxx\test\model\update_many.cpp"  />
+    <ClCompile Include="E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\src\mongocxx\test\model\update_one.cpp"  />
+    <ClCompile Include="E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\src\mongocxx\test\options\aggregate.cpp"  />
+    <ClCompile Include="E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\src\mongocxx\test\options\bulk_write.cpp" >
+      <ObjectFileName>$(IntDir)/options/bulk_write.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\src\mongocxx\test\options\count.cpp"  />
+    <ClCompile Include="E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\src\mongocxx\test\options\create_collection.cpp"  />
+    <ClCompile Include="E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\src\mongocxx\test\options\create_view.cpp"  />
+    <ClCompile Include="E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\src\mongocxx\test\options\delete.cpp" >
+      <ObjectFileName>$(IntDir)/options/delete.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\src\mongocxx\test\options\distinct.cpp"  />
+    <ClCompile Include="E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\src\mongocxx\test\options\find.cpp"  />
+    <ClCompile Include="E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\src\mongocxx\test\options\find_one_and_delete.cpp"  />
+    <ClCompile Include="E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\src\mongocxx\test\options\find_one_and_replace.cpp"  />
+    <ClCompile Include="E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\src\mongocxx\test\options\find_one_and_update.cpp"  />
+    <ClCompile Include="E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\src\mongocxx\test\options\gridfs\bucket.cpp" >
+      <ObjectFileName>$(IntDir)/options/gridfs/bucket.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\src\mongocxx\test\options\gridfs\upload.cpp" >
+      <ObjectFileName>$(IntDir)/options/gridfs/upload.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\src\mongocxx\test\options\index.cpp"  />
+    <ClCompile Include="E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\src\mongocxx\test\options\insert.cpp"  />
+    <ClCompile Include="E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\src\mongocxx\test\options\modify_collection.cpp"  />
+    <ClCompile Include="E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\src\mongocxx\test\options\pool.cpp" >
+      <ObjectFileName>$(IntDir)/options/pool.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\src\mongocxx\test\options\private\rewriter.cpp"  />
+    <ClCompile Include="E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\src\mongocxx\test\options\update.cpp" >
+      <ObjectFileName>$(IntDir)/options/update.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\src\mongocxx\test\pool.cpp" >
+      <ObjectFileName>$(IntDir)/pool.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\src\mongocxx\test\private\scoped_bson_t.cpp"  />
+    <ClCompile Include="E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\src\mongocxx\test\private\write_concern.cpp" >
+      <ObjectFileName>$(IntDir)/private/write_concern.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\src\mongocxx\test\read_concern.cpp"  />
+    <ClCompile Include="E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\src\mongocxx\test\read_preference.cpp"  />
+    <ClCompile Include="E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\src\mongocxx\test\result\bulk_write.cpp" >
+      <ObjectFileName>$(IntDir)/result/bulk_write.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\src\mongocxx\test\result\delete.cpp" >
+      <ObjectFileName>$(IntDir)/result/delete.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\src\mongocxx\test\result\gridfs\upload.cpp" >
+      <ObjectFileName>$(IntDir)/result/gridfs/upload.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\src\mongocxx\test\result\insert_one.cpp" >
+      <ObjectFileName>$(IntDir)/result/insert_one.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\src\mongocxx\test\result\replace_one.cpp" >
+      <ObjectFileName>$(IntDir)/result/replace_one.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\src\mongocxx\test\result\update.cpp" >
+      <ObjectFileName>$(IntDir)/result/update.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\src\mongocxx\test\uri.cpp"  />
+    <ClCompile Include="E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\src\mongocxx\test\validation_criteria.cpp"  />
+    <ClCompile Include="E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\src\mongocxx\test\write_concern.cpp" >
+      <ObjectFileName>$(IntDir)/write_concern.cpp.obj</ObjectFileName>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\vs2017\ZERO_CHECK.vcxproj">
+      <Project>{63F32FA1-3F34-3CA4-9AB2-7D613652A3DB}</Project>
+      <Name>ZERO_CHECK</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\vs2017\src\bsoncxx\bsoncxx.vcxproj">
+      <Project>{FB1789F8-EE47-3088-983A-60707E24319D}</Project>
+      <Name>bsoncxx</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\vs2017\src\mongocxx\mongocxx_mocked.vcxproj">
+      <Project>{2DA6102C-B8E5-383D-A42F-67E4D3920164}</Project>
+      <Name>mongocxx_mocked</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

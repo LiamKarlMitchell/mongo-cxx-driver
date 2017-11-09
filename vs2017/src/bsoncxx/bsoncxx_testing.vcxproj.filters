@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\src\bsoncxx\array\element.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\src\bsoncxx\array\value.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\src\bsoncxx\array\view.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\src\bsoncxx\builder\core.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\src\bsoncxx\decimal128.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\src\bsoncxx\document\element.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\src\bsoncxx\document\value.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\src\bsoncxx\document\view.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\src\bsoncxx\exception\error_code.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\src\bsoncxx\json.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\src\bsoncxx\oid.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\src\bsoncxx\private\itoa.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\src\bsoncxx\string\view_or_value.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\src\bsoncxx\types.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\src\bsoncxx\types\value.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\src\bsoncxx\validate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\Source\Anrinch\InfiniteSky\third-party\mongo-cxx-driver\src\bsoncxx\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{F9C66349-9B3D-3C98-AEDB-01C81BC05B71}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,8 @@
+# CMake generation dependency list for this directory.
+E:/Source/Anrinch/InfiniteSky/third-party/mongo-cxx-driver/benchmark/CMakeLists.txt
+E:/Programs/CMake/share/cmake-3.10/Modules/FindThreads.cmake
+E:/Programs/CMake/share/cmake-3.10/Modules/CheckLibraryExists.cmake
+E:/Programs/CMake/share/cmake-3.10/Modules/CheckSymbolExists.cmake
+E:/Programs/CMake/share/cmake-3.10/Modules/CheckIncludeFileCXX.cmake
+E:/Programs/CMake/share/cmake-3.10/Modules/FindPackageHandleStandardArgs.cmake
+E:/Programs/CMake/share/cmake-3.10/Modules/FindPackageMessage.cmake
